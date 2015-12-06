@@ -94,7 +94,7 @@ G   R   I   D
     width: 30%;
 }
 .col-2-3{
-    width: 30%;
+    width: 60%;
 }
 /*
 ===========================================
@@ -128,7 +128,7 @@ Rows
 Typography
 ===========================================
 */
-h1, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p{
     margin-bottom: 15px;
     color: grey;
 }
@@ -158,6 +158,21 @@ strong{
 em{
     font-style: italic;
 }
+ol {
+    color: gray;
+    list-style: decimal;
+    margin: inherit;
+    padding: 20;
+}
+dd {
+    padding: 0px 20px;
+}
+
+ul {
+    color: gray;
+    padding: 0px 50px;
+}
+
 
 /*
 ===========================================
@@ -243,6 +258,7 @@ Home
    
 }
 .Intro h2{
+    color: azure;
     font-size: 46px;
 }
 .Intro p{
@@ -295,7 +311,7 @@ Navigation
 .nav li {
     display: inline-block;
     margin: 0px 10px;
-    text-align: right;
+    vertical-align: top;
 }
 .nav li:last-child {
     margin-right: 0px;
@@ -317,7 +333,6 @@ Other Section
     font-size: 18px;
     margin-left: 60px;
     margin-right: 60px;
-    font-weight: 100;
     text-align: left;
     padding-top: 10px;
     
@@ -334,3 +349,50 @@ Other Section
 .White {
     background: white;
 }
+
+/*
+===========================================
+Team
+===========================================
+*/
+
+.team-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
+.team {
+    display: inline-block;
+}
+.team img {
+border-radius: 50%;
+  height: 130px;
+  margin: -90px 0 10px 0;
+  vertical-align: top;
+} 
+
+
+.process {
+    padding: inherit;
+}
+
+.portfolio {
+    display: block;
+}
+/*
+===========================================
+Teaser
+===========================================
+*/
+.teaser a:hover h3 {
+  color: darkgray;
+}
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    max-width: 100%;
+    height: 190px; 
+      
