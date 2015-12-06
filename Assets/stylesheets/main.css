@@ -51,8 +51,8 @@ Custom styles
 ============================================
 */
 body {
-    background: #293f50;
-    color: #888;
+    background-color: midnightblue;
+    color: white;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
@@ -118,20 +118,10 @@ Clearfix
 Rows
 ===========================================
 */
-.row,
-.row-alt{
-    min-width: 960px;
-}
 .row{
     background: white;
-    padding: 66px 0 44px 0;
-}
-.row-alt{
-    background: #cbe2c1;
-    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-    padding: 44px 0 22px 0;
+    padding: 6px 0 44px 0;
+    min-width: 60px;
 }
 /*
 ===========================================
@@ -139,11 +129,11 @@ Typography
 ===========================================
 */
 h1, h3, h4, h5, p{
-    margin-bottom: 22px;
-    color: #648880;
+    margin-bottom: 15px;
+    color: grey;
 }
 h1{
- font-size: 36px;
+    font-size: 36px;
     line-height: 44px;
 }
 h2{
@@ -159,13 +149,13 @@ h4{
 h5{
     color: #a9b2b9;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 strong{
-    font-weight: 400;
+    font-weight: 700;
 }
-cite, em{
+em{
     font-style: italic;
 }
 
@@ -176,16 +166,17 @@ Buttons
 */
 .btn {
     border-radius: 5px;
-    color: white;
+    color: gainsboro;
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
     letter-spacing: .5px;
     margin: 0px;
     text-transform: capitalize;
+    padding: 30px;
 }
 .btn-alt {
-    border: 1px solid #dfe2e5;
+    border: 2px solid gainsboro;
     padding: 0px 30px;
 }
 .btn-alt:hover {
@@ -200,23 +191,21 @@ Primary Header
 */
 
 .logo {
-    border-top: 4px solid #648880;
-    float: left;
+    border-top: 8px solid gainsboro;
+    float:left;
     font-size: 48px;
     font-weight: 100;
     letter-spacing: 5px;
     line-height: 44px;
-    padding: 40px 0px 22px 0;
+    padding: 10px 0px 20px 0;
     text-transform: uppercase;
 }
 .primary-nav {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
 }
-.primary-header {
-    
-}
+
 
 /*
 ===========================================
@@ -224,15 +213,21 @@ Primary Footer
 ===========================================
 */
 .primary-footer {
-    color: #648880;
+    color: gainsboro;
     font-size: 14px;
-    padding-bottom: 44px;
-    padding-top: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .primary-footer small {
     float: left;
     font-weight: 400
+}
+.primary-footer nav{
+    float: right;
+    word-spacing: 5px;
+    
+    
 }
 
 /*
@@ -240,21 +235,21 @@ Primary Footer
 Home
 ===========================================
 */
-.hero {
+.Intro {
     color: white;
     line-height: 30px;
-    padding: 22px 80px 66px 80px;
+    padding: 22px 100px 66px 100px;
     text-align: center;
+   
 }
-.hero h2{
+.Intro h2{
     font-size: 46px;
 }
-.hero p{
+.Intro p{
     font-size: 24px;
     margin-left: 60px;
     margin-right: 60px;
-    font-weight: 100;
-    
+    font-weight: 100;   
 }
 /*
 ===========================================
@@ -262,7 +257,7 @@ Tagline & Scrolls
 ===========================================
 */
 .tagline {
-  margin: 66px 0 22px 0;
+    margin: 40px 0 22px 0;
     text-align: right;
 }
 /*
@@ -271,22 +266,23 @@ Links
 ===========================================
 */
 a{
-    color: #648880;
+    color: darkgray;
     text-decoration: none;
 }
 a:hover {
-    color: #a9b2b9;
+    color: darkseagreen;
 }
+
 p a {
     border-bottom: 1px solid #dfe2e5;
 }
 .primary-header a,
 .primary-footer a{
-    color: #fff;
+    color: whitesmoke;
 }
 .primary-header a:hover,
 .primary-footer a:hover{
-    color: #648880;
+    color: darkseagreen;
 }
 /*
 ===========================================
@@ -297,4 +293,36 @@ Navigation
     text-align: right;
 }
 
+/*
+===========================================
+Other Section
+===========================================
+*/
 
+.section {
+    color: white;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.section p{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: 100;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.section-title {
+    border-top: 5px solid gainsboro;
+    float:left;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 10px 0px 20px 0;
+    text-transform: uppercase;
+}
+.White {
+    background: white;
+}
