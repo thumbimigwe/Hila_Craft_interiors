@@ -292,6 +292,14 @@ Navigation
 .nav {
     text-align: right;
 }
+.nav li {
+    display: inline-block;
+    margin: 0px 10px;
+    text-align: right;
+}
+.nav li:last-child {
+    margin-right: 0px;
+}
 
 /*
 ===========================================
